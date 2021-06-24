@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.card {
+  height: 400px;
+  width: 600px;
+  margin: 100px auto;
+  box-shadow: 4px 4px 4px grey;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.top {
+  width: inherit;
+  height: 100px;
+  background-color: aqua;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+.top img{
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -50px;
+  left: 75px;
+}
+
+.bottom {
+  height: 100px;
+  padding: 50px 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.bottom * {
+  margin: 5px;
+}
+
+.bottom .location{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.bottom .edit-profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.bottom img {
+  height: 20px;
+  margin-right: 10px;
+}
